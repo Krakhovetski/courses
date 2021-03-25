@@ -1,0 +1,471 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background-color: rgb(236, 236, 236);
+  margin: 0;
+  padding: 0px;
+  line-height: 1.5;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+}
+
+h3,
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+p {
+  margin: 1% 0;
+}
+
+.uli {
+  padding: 0; /* Убираем поля */
+  /*margin-left: 0px; /* Отступ слева */
+}
+
+.logoPic {
+  position: absolute;
+  height: 5.4rem;
+}
+
+.logoPicSm {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 3.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.text-head {
+  margin: 3% 0 5% 0;
+}
+
+.indent-section {
+  padding: 4% 7%;
+}
+
+/* Section Menu */
+.titleCont {
+  min-height: 2.1rem;
+}
+
+.phone {
+  text-align: right;
+  font-size: 1.3rem;
+  padding: 0.6% 2% 0.3% 0;
+}
+
+.phoneText {
+  color: rgb(41, 41, 41);
+}
+
+.skippy {
+  background-color: rgb(163, 163, 163);
+  padding: 0;
+}
+
+.section {
+  background-color: #fff;
+}
+
+/*Section WebStory*/
+
+.price-text {
+  font-weight: 700;
+  margin: 2% 0 4%;
+}
+
+.head-title {
+  margin: 0;
+  display: inline-block;
+}
+
+.web-title {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.pic {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/WebDev.jpeg");
+  background-size: auto 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*.title-gradient {
+  background-image: linear-gradient(
+    to right,
+    #0000008c,
+    #00000085,
+    #00000036,
+    #00000000,
+    #00000000
+  );
+  margin: 0;
+}*/
+
+.line {
+  margin: 8% 0 16%;
+  height: 6px;
+  width: 100%;
+  border: none;
+}
+
+.price-line {
+  
+  margin: 4% auto 3%;
+  border-style: none;
+  border-top-style: dotted;
+  width: 100%;
+  border-width: 2px;
+  border-color: rgb(187, 187, 187);
+}
+
+.box-title {
+  margin: 5% 5% 8% 8%;
+  color: rgba(255, 255, 255, 0.918);
+  text-align: left;
+  padding: 5%;
+  line-height: 2;
+}
+
+.btni {
+  color: #fff;
+  background-color: #027a38;
+  border-color: #027a38;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  line-height: inherit;
+  margin: 2% 0 2% 0;
+}
+
+.btni:hover {
+  color: #fff;
+  background-color: #009945;
+  border-color: #027a38;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  line-height: inherit;
+
+  box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.884);
+  margin: 2% 0 2% 0;
+}
+
+/* Section Featueres */
+
+.color-fiture {
+  color: #a84d4d;
+}
+
+.fiture-title {
+  margin: 6% 0 3%;
+}
+
+.features-box {
+  padding: 3% 3%;
+  text-align: center;
+}
+
+.features-box:hover {
+  padding: 3% 3%;
+  text-align: center;
+  box-shadow: 0px 0px 5px rgba(134, 134, 134, 0.5);
+  border-radius: 5px;
+}
+
+/* Section process */
+
+.teach {
+  padding: 4px 0 2% 38px;
+}
+
+.color-accent {
+  color: rgb(168, 77, 77);
+}
+
+.pic-process {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/process.jpg");
+  background-size: 100% auto;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgba(134, 134, 134, 0.5);
+}
+
+.web_colour {
+  background-color: rgb(168, 77, 77);
+}
+
+.marker-non {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+.wrapper {
+  margin: 0 auto;
+  box-shadow: 0px 5px 25px rgba(134, 134, 134, 0.226);
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+/* Carousel  */
+
+.outer {
+  display: grid;
+  min-height: 280px;
+}
+
+.inner {
+  align-self: center;
+  justify-self: center;
+}
+
+.colored {
+  color: #fff;
+  background-color: RGB(119, 114, 71);
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 4% 15% 4%;
+  text-align: center;
+  min-height: 380px;
+}
+
+#result {
+  color: #fff;
+  background-color: RGB(119, 114, 71);
+  padding: 0;
+}
+
+.curses-title {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.pic-full {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/traker.jpg");
+  background-size: 100% auto;
+}
+
+.pic-web {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/webOne.jpg");
+  background-size: 100% auto;
+}
+
+.pic-robo {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/robo2.jpg");
+  background-size: 100% auto;
+}
+
+.pic-3d {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/3d_turbine.png");
+  background-size: 100% auto;
+}
+
+.pic-foto {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/unnamed.jpg");
+  background-size: 100% auto;
+}
+
+.pic-construct {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/construct.jpg");
+  background-size: 100% auto;
+}
+
+/* Стоимость */
+
+.section-heading {
+  margin: 1% 0 3%;
+}
+
+.pricing-centering {
+  text-align: center;
+}
+
+.pricing-column {
+  margin: 3% 2%;
+}
+
+/* Вопросы */
+
+.pic-asks {
+  color: rgb(255, 255, 255);
+  background-image: url("../pictures/asks.jpg");
+  background-size: 100% auto;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgba(134, 134, 134, 0.5);
+}
+
+/*Программа обучения*/
+
+#program {
+  color: rgb(0, 0, 0);
+  background-color: #fff;
+}
+
+.wrapper-program {
+  margin: 2% 0;
+  grid-gap: 25px;
+  display: grid;
+  justify-items: stretch;
+}
+
+.stick {
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 0;
+}
+
+.stick-header {
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.stick-header {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.stick-title {
+  margin: 0 0 8px 12px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.stick-body {
+  padding: 1.25rem;
+  line-height: 1.5;
+}
+
+.wrapper-price {
+  margin: 3% 0;
+  grid-gap: 25px;
+  display: grid;
+}
+
+.process-title {
+  margin: 0.5rem 0 2.2rem 0;
+}
+
+.container-fl {
+  padding: 4% 15% 4%;
+  text-align: center;
+}
+
+.social-icon {
+  font-size: 1.7rem;
+  padding: 0 1% 2%;
+}
+
+/* О Себе */
+.about-title {
+  margin: 0 0 2%;
+}
+
+/*
+.about-me {
+  margin: 0;
+  column-gap: 15px;
+  row-gap: 0px;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-areas:
+    "about-pic about-we"
+    "cont cont";
+}
+
+.about-we {
+  grid-area: about-we; 
+}
+.cont {
+  grid-area: cont; 
+  margin: 0;
+}*/
+
+#about {
+  background-color: #fff;
+  /*border-style: none;
+  border-top-style: dotted;
+  border-width: 2px;
+  border-color: rgb(187, 187, 187);*/
+}
+
+.about-line {
+ 
+  border-style: none;
+  border-top-style: dotted;
+  width: 86%;
+  border-width: 2px;
+  border-color: rgb(187, 187, 187);
+  margin: 0 auto;
+}
+
+.color-w {
+  background-color: #fff;
+}
+
+.about-pic {
+  margin: 0 18px 10px 0;
+}
